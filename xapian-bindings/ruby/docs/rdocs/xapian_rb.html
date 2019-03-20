@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>File: xapian.rb [Ruby Xapian bindings]</title>
+
+  <link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet" />
+
+  <script src="./js/jquery.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript"
+    charset="utf-8"></script>
+</head>
+
+<body class="file file-popup">
+  <div id="metadata">
+    <dl>
+      <dt class="modified-date">Last Modified</dt>
+      <dd class="modified-date">2016-03-28 12:50:04 +0100</dd>
+
+      
+      <dt class="requires">Requires</dt>
+      <dd class="requires">
+        <ul>
+        
+          <li>_xapian</li>
+        
+        </ul>
+      </dd>
+      
+
+      
+    </dl>
+  </div>
+
+  <div id="documentation">
+    
+    <div class="description">
+      <h2>Description</h2>
+      
+<h1>Ruby <a href="Xapian.html">Xapian</a> bindings</h1>
+
+<p>Original version by Paul Legato (plegato@nks.net), 4/20/06.</p>
+
+<p>Copyright (C) 2006 Networked Knowledge Systems, Inc. Copyright (C)
+2008,2011 Olly Betts Copyright (C) 2010 Richard Boulton</p>
+
+<p>This program is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation; either version 2 of the License, or (at your option)
+any later version.</p>
+
+<p>This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+more details.</p>
+
+<p>You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc., 51
+Franklin St, Fifth Floor, Boston, MA  02110-1301 USA</p>
+
+<h2>Underscore methods</h2>
+
+<p>Note: Methods whose names start with an underscore character _ are internal
+methods from the C++ API. Their functionality is not accessible in a
+Ruby-friendly way, so this file provides wrapper code to make it easier to
+use them from a Ruby programming idiom.  Most are also dangerous insofar as
+misusing them can cause your program to segfault.  In particular, all of
+Xapian’s *Iterator classes are wrapped into nice Ruby-friendly Arrays.</p>
+
+<p>It should never be necessary to use any method whose name starts with an
+underscore from user-level code. Make sure you are <em>VERY</em> certain
+that you know exactly what you’re doing if you do use one of these methods.
+Beware. You’ve been warned…</p>
+
+    </div>
+    
+  </div>
+</body>
+</html>
+
